@@ -16,7 +16,11 @@ it and wanted to play with it more - I usually write frontend JS.
 2. Install git and other dev requirements of your liking.
 3. Arduio IDE installed fron arduino.cc into `/home/pi/arduino-1.8.13`
 4. Arduino-mk intalled using `apt install arduino-mk`
-5. nodejs and npm installed using `apt install nodejs npm`
+5. nodejs and npm installed from https://github.com/nodesource/distributions
+    ```
+    curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+    sudo apt-get install -y nodejs npm
+    ```
 6. `~/.profile` extends for arduino-mk
 
     ```
@@ -28,6 +32,7 @@ it and wanted to play with it more - I usually write frontend JS.
 
 ## References
 
+https://github.com/nodesource/distributions
 https://www.raspberrypi.org/
 https://www.arduino.cc
 https://github.com/sudar/Arduino-Makefile

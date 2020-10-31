@@ -17,16 +17,15 @@ void setup() {
     FastLED.addLeds<WS2812, LED_PIN, GRB>(leds, NUM_LEDS);
     FastLED.addLeds<WS2812, LED2_PIN, GRB>(leds2, NUM_LEDS);
     myR=0;
-    myG=128;
+    myG=0;
     myB=0;
     for (int i = 0; i < NUM_LEDS; i++) {
-        leds[i].setRGB(0, 128, 0);
-        leds2[i].setRGB(myR, myG, myB);
+        leds[i].setRGB(0, 0, 0);
+        leds2[i].setRGB(0, 0, 0);
     }
 }
 
 void convertToState(char chr) {
-  Serial.println(String(chr));
   if(chr=='r'){
     if (myR == 0) {
         myR = 128;
@@ -47,6 +46,16 @@ void convertToState(char chr) {
     } else {
         myB = 0;
     }
+  }
+  if (chr=='o') {
+    myR = 0;
+    myG = 0;
+    myB = 0;
+  }
+  if (chr=='w') {
+    myR = 128;
+    myG = 128;
+    myB = 128;
   }
   Serial.println("RGB: "+String(myR)+','+String(myG)+','+String(myB));
 }

@@ -1,2 +1,3 @@
 sounds/*.wav
 **/build-*
+node_modules/

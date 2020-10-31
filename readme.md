@@ -27,8 +27,9 @@ it and wanted to play with it more - I usually write frontend JS.
     export ARDUINO_DIR=/home/pi/arduino-1.8.13
     export ARDMK_DIR=/usr/share/arduino
     ```
-7. Download sounds in `sounds/` (I grabbed mine from: https://www.freesoundeffects.com/free-sounds/scary-and-horror-10085/20/tot_sold/20/2/ )
-8.
+7. Download sounds in `sounds/` (Grabbed  from: https://www.freesoundeffects.com/free-sounds/scary-and-horror-10085/20/tot_sold/20/2/ )
+8. `cd arduino/NodeControl && make upload && cd ../../` to install arduino code
+9. `node js/Controls/Halloween.s` to run
 
 ## References
 

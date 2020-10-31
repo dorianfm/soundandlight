@@ -1,0 +1,28 @@
+{
+  "name": "halloween",
+  "version": "0.0.0",
+  "description": "Light & Sound controller for Halloween",
+  "main": "halloween.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dorianfm/halloween.git"
+  },
+  "keywords": [
+    "Halloween",
+    "Arduino",
+    "LED",
+    "Raspberry",
+    "Pi",
+    "Sound",
+    "Light"
+  ],
+  "author": "Dorian Fraser-Moore <dorian+code@theusefularts.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dorianfm/halloween/issues"
+  },
+  "homepage": "https://github.com/dorianfm/halloween#readme"
+}

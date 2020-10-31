@@ -28,8 +28,8 @@
       if (g <= 1)
       {
         up = 1;
-      } else if (g >= 149) {
+      } else if (g >= 250) {
         up = 0;
       }
-      delay(30);
+      delay(1);
   }

@@ -34,9 +34,15 @@ it and wanted to play with it more - I usually write frontend JS.
 ## References
 
 https://github.com/nodesource/distributions
+
 https://www.raspberrypi.org/
+
 https://www.arduino.cc
+
 https://github.com/sudar/Arduino-Makefile
 
+https://learn.adafruit.com/adafruit-neopixel-uberguide/best-practices
+
+https://github.com/FastLED/FastLED
 
 

@@ -20,7 +20,7 @@ it and wanted to play with it more - I usually write frontend JS.
 5. nodejs and npm installed from https://github.com/nodesource/distributions
     ```
     curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
-    sudo apt-get install -y nodejs npm
+    sudo apt-get install -y nodejs
     ```
 6. `~/.profile` extends for arduino-mk
 

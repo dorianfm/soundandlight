@@ -4,10 +4,11 @@ A controller to random play audio filesand make sychronised light effects using
 a string of controllable leds lights.
 
 The LEDs are WS2181Bs connected to an Arduino, used to be able to not worry about
-the clock synch ont he lights. I could have used more expensive LEDS and driven
-them from the Pi, but I had an arduino lying around so this was cheaper.
+the clock synch on the lights. I could have used more expensive LEDS and driven
+them from the Pi, but I had an arduino lying around so this was cheaper, and 
+pretty straightforward
 
-I've put this togehter in Node JS as I've not really done any full projects in
+I've put this together in Node JS as I've not really done any full projects in
 it and wanted to play with it more - I usually write frontend JS.
 
 ## Setup

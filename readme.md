@@ -1,4 +1,4 @@
-# Halloween Sound & Light Controller
+# Festive Sound & Light Controller
 
 A controller to random play audio filesand make sychronised light effects using
 a string of controllable leds lights.
@@ -10,6 +10,8 @@ pretty straightforward
 
 I've put this together in Node JS as I've not really done any full projects in
 it and wanted to play with it more - I usually write frontend JS.
+
+15/11/2020 - I'm moving this around bit to add in some hacks for christmas control lights.
 
 ## Setup
 

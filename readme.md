@@ -75,7 +75,7 @@ https://www.amazon.co.uk/LM2596-Converter-3-0-40V-1-5-35V-Supply/dp/B01GJ0SC2C
 
 I should then be able to hook up a chain of lights to each motor controller channel,
 and control which 'channel' of the lights is working, or alternate quickly between the two,
-to get the lights to come on as required.
+to get the lights to come on as required or show the full string by alternating very quickly
 
 Also look at using the piface I have
 http://www.piface.org.uk/products/piface_digital/

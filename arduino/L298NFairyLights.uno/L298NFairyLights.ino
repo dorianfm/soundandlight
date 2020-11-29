@@ -14,13 +14,13 @@ void setup()
 
     pinMode(0, OUTPUT); // Controller 3 IN1 (A)
     pinMode(1, OUTPUT); // Controller 3 IN2 (A)
-    pinMode(2, OUTPUT); // Controller 3 IN3 (B)
-    pinMode(4, OUTPUT); // Controller 3 IN4 (B)
+    pinMode(4, OUTPUT); // Controller 3 IN3 (B)
+    pinMode(2, OUTPUT); // Controller 3 IN4 (B)
     pinMode(3, OUTPUT); // Controller 3 ENA
     pinMode(5, OUTPUT); // Controller 3 ENB
 
-    pinMode(7, OUTPUT); // Controller 2 IN1 (A)
-    pinMode(8, OUTPUT); // Controller 2 IN2 (A)
+    pinMode(8, OUTPUT); // Controller 2 IN1 (A)
+    pinMode(7, OUTPUT); // Controller 2 IN2 (A)
     pinMode(12, OUTPUT); // Controller 2 IN3 (B)
     pinMode(13, OUTPUT); // Controller 2 IN4 (B)
     pinMode(6, OUTPUT); // Controller 2 ENA
@@ -37,11 +37,11 @@ void show1()
 
     digitalWrite(0, HIGH);
     digitalWrite(1, LOW);
-    digitalWrite(2, HIGH);
-    digitalWrite(4, LOW);
+    digitalWrite(4, HIGH);
+    digitalWrite(2, LOW);
 
-    digitalWrite(7, HIGH);
-    digitalWrite(8, LOW);
+    digitalWrite(8, HIGH);
+    digitalWrite(7, LOW);
     digitalWrite(12, HIGH);
     digitalWrite(13, LOW);
 }
@@ -55,11 +55,11 @@ void show2()
 
     digitalWrite(0, LOW);
     digitalWrite(1, HIGH);
-    digitalWrite(2, LOW);
-    digitalWrite(4, HIGH);
+    digitalWrite(4, LOW);
+    digitalWrite(2, HIGH);
 
-    digitalWrite(7, LOW);
-    digitalWrite(8, HIGH);
+    digitalWrite(8, LOW);
+    digitalWrite(7, HIGH);
     digitalWrite(12, LOW);
     digitalWrite(13, HIGH);
 }
